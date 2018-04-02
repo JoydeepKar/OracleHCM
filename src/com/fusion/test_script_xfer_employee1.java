@@ -42,15 +42,8 @@ public class test_script_xfer_employee1 {
 	
 	@Before
 	public void setUp() throws Exception {
-		
-	
-
 		System.setProperty("webdriver.chrome.driver", "D:\\selenium_assets\\chromedriver.exe");	
 		driver = new ChromeDriver();
-		
-		//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		
-		
 	}
 
 	@After
