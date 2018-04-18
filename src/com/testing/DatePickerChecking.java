@@ -20,7 +20,8 @@ public class DatePickerChecking {
 //		Thread.sleep(4000);
 //		driver.findElement(By.xpath("//table[@class='ui-datepicker-calendar']//tbody//tr//td//a[text()='20']")).click();
 		driver.findElement(By.xpath("//img[@class='ui-datepicker-trigger']")).click();
-		driver.findElement(By.xpath("//table[@class='ui-datepicker-calendar']//tbody//tr//td//a[text()='20']")).click();
+		String dynamic_day = "//table[@class='ui-datepicker-calendar']//tbody//tr//td//a[text()='"+22+"']";
+		driver.findElement(By.xpath(dynamic_day)).click();
 		//driver.quit();
 	}
 }
